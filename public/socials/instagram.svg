@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+  <radialGradient id="ig-grad1" cx="19.38" cy="42.035" r="44.899" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#fd5"/>
+    <stop offset=".328" stop-color="#ff543f"/>
+    <stop offset=".348" stop-color="#fc5245"/>
+    <stop offset=".509" stop-color="#e64771"/>
+    <stop offset=".68" stop-color="#d62e92"/>
+    <stop offset=".84" stop-color="#c12e99"/>
+    <stop offset="1" stop-color="#b22e9e"/>
+  </radialGradient>
+  <path fill="url(#ig-grad1)" d="M34,42H14c-4.418,0-8-3.582-8-8V14c0-4.418,3.582-8,8-8h20c4.418,0,8,3.582,8,8v20C42,38.418,38.418,42,34,42z"/>
+  <path fill="#FFF" d="M24,14c-5.522,0-10,4.478-10,10c0,5.523,4.478,10,10,10c5.523,0,10-4.477,10-10C34,18.478,29.523,14,24,14z M24,30c-3.314,0-6-2.686-6-6c0-3.314,2.686-6,6-6s6,2.686,6,6C30,27.314,27.314,30,24,30z"/>
+  <circle fill="#FFF" cx="34" cy="14" r="2"/>
+</svg>
