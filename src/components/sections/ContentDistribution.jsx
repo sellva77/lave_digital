@@ -254,18 +254,22 @@ export default function ContentDistribution() {
           </svg>
         </div>
 
-        {/* Center Node: Interactive Cat Mascot replacing "Core Content" */}
+        {/* Center Node: Interactive LAVE Blob Mascot */}
         <div className="absolute z-30 flex items-center justify-center">
-          <div className="w-44 h-44 bg-white rounded-full shadow-2xl shadow-gray-200/50 border border-gray-100 flex flex-col items-center justify-center relative z-10 cursor-default group hover:scale-105 transition-transform duration-300">
-            <div className="absolute inset-0 rounded-full bg-gradient-to-tr from-gray-50 to-transparent opacity-50" />
-            <div className="relative z-10 flex items-center justify-center" style={{ transform: "scale(0.55) translateY(8px)" }}>
+          <div className="flex items-center justify-center relative z-10 cursor-default group hover:scale-105 transition-transform duration-300" style={{ width: "220px", height: "220px" }}>
+            <div className="relative z-10 flex items-center justify-center" style={{ transform: "scale(0.75)" }}>
               <InteractiveCat />
             </div>
           </div>
-          {/* Pulsing Gradient Ping Effect */}
+          {/* Pulsing Red Glow Effect */}
           <div
-            className="absolute inset-0 rounded-full bg-gradient-to-r from-yellow-400 via-blue-500 to-purple-600 opacity-20 animate-ping pointer-events-none"
-            style={{ animationDuration: "1.5s" }}
+            className="absolute rounded-full pointer-events-none"
+            style={{
+              width: "220px",
+              height: "220px",
+              background: "radial-gradient(circle, rgba(230,0,0,0.15) 0%, rgba(230,0,0,0.05) 60%, transparent 75%)",
+              animation: "pulse 2.5s ease-in-out infinite",
+            }}
           />
         </div>
       </div>

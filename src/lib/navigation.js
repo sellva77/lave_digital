@@ -3,6 +3,8 @@ export const NAV_LINKS = [
   { label: "About", href: "/about" },
   { label: "Services", href: "/services" },
   { label: "Work", href: "/work" },
+  { label: "Blog", href: "/blog" },
+  { label: "FAQ", href: "/faq" },
   { label: "Contact", href: "/contact" },
 ];
 
@@ -22,7 +24,7 @@ export const FOOTER_LINKS = {
   ],
   resources: [
     { label: "Case Studies", href: "/work" },
-    { label: "FAQs", href: "/contact#faq" },
+    { label: "FAQs", href: "/faq" },
     { label: "Privacy Policy", href: "/privacy" },
     { label: "Terms of Service", href: "/terms" },
   ],

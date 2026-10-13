@@ -13,7 +13,7 @@ const NAV_ITEMS = [
   { label: "Service", href: "/services" },
   { label: "Blog", href: "/blog" },
   { label: "Careers", href: "/careers" },
-  { label: "FQA", href: "/contact#faq" },
+  { label: "FAQ", href: "/faq" },
 ];
 
 export default function Navbar() {

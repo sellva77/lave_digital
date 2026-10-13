@@ -1,0 +1,193 @@
+export const perks = [
+  {
+    title: "100% Remote-First & Flexible",
+    description: "Work from wherever you do your best work. We value outcomes, deep focus, and high-trust autonomy over rigid hours.",
+    icon: "globe",
+  },
+  {
+    title: "Top-Tier Tech & Gear",
+    description: "Latest Apple MacBook Pro, 4K displays, high-end peripherals, and a dedicated home office setup stipend.",
+    icon: "laptop",
+  },
+  {
+    title: "$2,000 Annual Learning Budget",
+    description: "Generous personal allowance for books, conferences, design courses, software licenses, and creative mentorship.",
+    icon: "book",
+  },
+  {
+    title: "Comprehensive Health & Wellness",
+    description: "Premium health, dental, and vision insurance for you and your family, plus paid mental wellness recharge days.",
+    icon: "heart",
+  },
+  {
+    title: "Annual Team Retreats",
+    description: "All-expenses-paid global team meetups in inspiring destinations to connect, brainstorm, and celebrate our wins.",
+    icon: "sparkles",
+  },
+  {
+    title: "Competitive Compensation & Equity",
+    description: "Top-tier benchmarked salaries, profit-sharing bonuses, and long-term incentive grants for core contributors.",
+    icon: "chart",
+  },
+];
+
+export const hiringProcess = [
+  {
+    step: "01",
+    title: "Application & Portfolio Review",
+    timeframe: "Within 48 hours",
+    description: "Our hiring team reviews your portfolio, real-world case studies, and code samples with care and intention.",
+  },
+  {
+    step: "02",
+    title: "Culture & Chemistry Conversation",
+    timeframe: "30 mins video call",
+    description: "A casual chat with our founders or team lead to discuss mutual aspirations, working style, and values alignment.",
+  },
+  {
+    step: "03",
+    title: "Practical Craft Deep Dive",
+    timeframe: "Paid exercise or walkthrough",
+    description: "No pointless 40-hour take-homes. We either do a 60-min live design/code walkthrough or a fully compensated mini sprint.",
+  },
+  {
+    step: "04",
+    title: "Offer & Onboarding",
+    timeframe: "Welcome aboard",
+    description: "We extend a competitive, transparent offer. Once accepted, your home office kit arrives before day one.",
+  },
+];
+
+export const jobListings = [
+  {
+    id: "sr-product-designer",
+    title: "Senior Product Designer",
+    department: "Design & Creative",
+    location: "Remote (Global)",
+    type: "Full-Time",
+    experience: "4+ years",
+    salary: "$75k - $105k / yr",
+    shortDescription: "Lead end-to-end UX/UI design systems, interactive prototypes, and digital product experiences for high-growth global clients.",
+    description: "We're looking for a Senior Product Designer who thrives at the intersection of aesthetic beauty and functional utility. You will champion design systems, conduct discovery sessions, and craft responsive web and mobile interfaces that captivate users.",
+    requirements: [
+      "4+ years of product/UI/UX design experience in a creative studio or tech product environment.",
+      "Mastery of Figma, component architecture, auto-layout, and interactive prototyping.",
+      "Deep understanding of design tokens, accessibility (WCAG), and responsive typography.",
+      "Experience partnering directly with frontend developers to bring designs into live code.",
+    ],
+    skills: ["Figma", "Design Systems", "Prototyping", "User Research", "Micro-interactions"],
+    featured: true,
+  },
+  {
+    id: "lead-frontend-engineer",
+    title: "Lead Frontend Engineer (Next.js)",
+    department: "Engineering",
+    location: "Remote / Hybrid (Mumbai)",
+    type: "Full-Time",
+    experience: "5+ years",
+    salary: "$80k - $115k / yr",
+    shortDescription: "Architect award-winning, fluid, and high-performance digital experiences using Next.js, React, Tailwind CSS, and WebGL animations.",
+    description: "As our Lead Frontend Engineer, you will set the technical standard for all client web platforms. You will bridge design and code, turning complex animations and headless architectures into blazing-fast digital realities.",
+    requirements: [
+      "5+ years of modern JavaScript/TypeScript experience with deep mastery of Next.js and React.",
+      "Proven track record creating smooth micro-animations using GSAP, Framer Motion, or Canvas/Three.js.",
+      "Obsession with performance: Core Web Vitals, Lighthouse 95+, asset optimization, and clean semantic markup.",
+      "Comfort with headless CMS integrations (Sanity, Contentful, Strapi) and modern cloud deployments.",
+    ],
+    skills: ["Next.js", "React", "TypeScript", "Tailwind CSS", "GSAP / Motion", "Core Web Vitals"],
+    featured: true,
+  },
+  {
+    id: "art-director-branding",
+    title: "Art Director & Brand Strategist",
+    department: "Design & Creative",
+    location: "Remote",
+    type: "Full-Time",
+    experience: "4+ years",
+    salary: "$70k - $95k / yr",
+    shortDescription: "Craft iconic visual identities, typography guidelines, brand stories, and multi-channel creative direction for forward-thinking brands.",
+    description: "Join as our creative heartbeat. You will direct brand overhauls, orchestrate visual guidelines, lead creative workshops with founders, and mentor our graphic and motion designers.",
+    requirements: [
+      "4+ years of art direction or brand design experience with an exceptional portfolio.",
+      "Expertise in visual storytelling, typography curation, brand voice, and guidelines production.",
+      "Strong client presentation and workshop moderation capabilities.",
+      "Fluency in Adobe Creative Suite and modern vector/prototyping tools.",
+    ],
+    skills: ["Brand Identity", "Visual Direction", "Typography", "Storytelling", "Client Leadership"],
+    featured: false,
+  },
+  {
+    id: "growth-marketing-lead",
+    title: "Performance & Growth Marketing Lead",
+    department: "Marketing & Strategy",
+    location: "Remote / Hybrid",
+    type: "Full-Time",
+    experience: "3+ years",
+    salary: "$65k - $90k / yr",
+    shortDescription: "Scale full-funnel acquisition campaigns, paid media, and conversion rate optimization (CRO) strategies across digital channels.",
+    description: "We are seeking a data-driven growth strategist to plan, deploy, and scale paid acquisition and organic engines for our portfolio of enterprise and startup partners.",
+    requirements: [
+      "3+ years managing scalable ad spend across Meta, Google Ads, LinkedIn, and TikTok.",
+      "Expertise in setting up analytics dashboards (GA4, Mixpanel, Looker Studio) and conversion tracking.",
+      "Strong copy intuition and ability to brief design and video production teams for viral creative assets.",
+      "Demonstrated ability to drive positive ROAS and low CAC for client engagements.",
+    ],
+    skills: ["Paid Acquisition", "CRO", "Google Ads / Meta Ads", "Data Analytics", "Growth Strategy"],
+    featured: false,
+  },
+  {
+    id: "3d-motion-designer",
+    title: "3D Motion & Visual Designer",
+    department: "Design & Creative",
+    location: "Remote",
+    type: "Full-Time / Contract",
+    experience: "3+ years",
+    salary: "$65k - $90k / yr",
+    shortDescription: "Design striking 3D renders, kinetic typography, and motion teasers that elevate web experiences, product debuts, and social campaigns.",
+    description: "Bring static visions into hypnotic motion. You will create 3D product renders, spatial interactions, brand reveals, and motion graphics that set our agency's work apart on Awwwards and Dribbble.",
+    requirements: [
+      "3+ years creating 3D visuals and motion graphics using Cinema 4D, Blender, and After Effects.",
+      "Experience optimizing 3D assets for the web (GLTF, Spline, Three.js friendly exports) is a huge plus.",
+      "Impeccable sense of timing, physics, camera movement, lighting, and sound design.",
+    ],
+    skills: ["Cinema 4D / Blender", "After Effects", "Spline", "Motion Graphics", "3D Rendering"],
+    featured: false,
+  },
+  {
+    id: "technical-project-manager",
+    title: "Technical Project & Delivery Manager",
+    department: "Operations",
+    location: "Hybrid (Mumbai) / Remote",
+    type: "Full-Time",
+    experience: "3+ years",
+    salary: "$55k - $75k / yr",
+    shortDescription: "Coordinate sprint deliverables, client milestones, and production pipelines to ensure our digital launches are on time and on budget.",
+    description: "Our project managers are strategic facilitators who remove roadblocks, foster crystal-clear communication with clients, and keep our multidisciplinary design and development sprints running like clockwork.",
+    requirements: [
+      "3+ years managing web, branding, or software projects in an agency or product company.",
+      "Proficiency with modern tools: Jira, Notion, Slack, Linear, and Figma inspect mode.",
+      "High emotional intelligence, proactive problem solving, and crisp written and verbal communication.",
+    ],
+    skills: ["Agile Delivery", "Client Communications", "Notion & Linear", "Sprint Planning"],
+    featured: false,
+  },
+];
+
+export const candidateFaqs = [
+  {
+    question: "Do you hire internationally or only in India?",
+    answer: "We are an internationally distributed team! While our physical studio base is in Mumbai, over 50% of our creative and technical talent works remotely across various time zones. We hire via direct contractor agreements or localized payroll partners worldwide.",
+  },
+  {
+    question: "What does the typical hiring timeline look like?",
+    answer: "We respect your time and move quickly. From your initial application to a formal offer, the entire process typically takes 7 to 14 business days. You will receive clear updates at every stage without ghosting.",
+  },
+  {
+    question: "Do you require take-home design or coding tests?",
+    answer: "No unpaid busywork! We value your real-world portfolio and open-source contributions. For practical assessments, we either conduct an interactive live session or pay you standard contractor rates for a short collaborative trial.",
+  },
+  {
+    question: "What if there isn't a role open for my specific skillset?",
+    answer: "We are always eager to meet exceptional talent! Use our Spontaneous / Dream Role application below. If your craft resonates with what we're building, we'll reach out when the right opportunity opens up.",
+  },
+];

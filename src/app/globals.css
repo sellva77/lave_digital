@@ -10,8 +10,10 @@
 
   --color-surface: #ffffff;
   --color-surface-alt: #f8fafc;
-  --color-surface-dark: #0f172a;
-  --color-surface-darker: #020617;
+  /* --color-surface-dark: #0f172a; */
+  --color-surface-dark: #ffffff;
+  /* --color-surface-darker: #020617; */
+  --color-surface-darker: #ffffff;
 
   --color-text-primary: #0f172a;
   --color-text-secondary: #475569;
@@ -193,7 +195,7 @@
 }
 
 html {
-  scroll-behavior: smooth;
+  /* Smooth scrolling orchestrated via Lenis */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -899,29 +901,15 @@ section#home,
   display: none;
 }
 
-/* ─── Interactive Cat Mascot (2.5D SVG) ─── */
+/* ─── Interactive LAVE Blob Mascot (2.5D SVG) ─── */
 .interactive-cat {
   position: relative;
-  width: 200px;
-  height: 280px;
+  width: 300px;
+  height: 300px;
   pointer-events: none;
   user-select: none;
-  filter: drop-shadow(0 6px 20px rgba(0, 0, 0, 0.4));
+  filter: drop-shadow(0 10px 30px rgba(0, 0, 0, 0.45));
   transition: opacity 0.5s ease;
-}
-
-/* Subtle red glow under the cat */
-.interactive-cat::after {
-  content: "";
-  position: absolute;
-  bottom: -8px;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 100px;
-  height: 16px;
-  background: radial-gradient(ellipse, rgba(230, 0, 0, 0.25) 0%, transparent 70%);
-  border-radius: 50%;
-  pointer-events: none;
 }
 
 /* Reduced-motion: disable all transforms */
@@ -931,11 +919,11 @@ section#home,
   }
 }
 
-/* On smaller screens, shrink the cat */
+/* On smaller screens, shrink the blob */
 @media (max-width: 640px) {
   .interactive-cat {
-    width: 130px;
-    height: 185px;
+    width: 200px;
+    height: 200px;
   }
 }
 

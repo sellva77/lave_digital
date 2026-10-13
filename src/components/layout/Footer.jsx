@@ -64,7 +64,7 @@ export default function Footer() {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer data-theme="dark" className="gradient-dark text-text-on-dark pt-20 pb-8">
+    <footer data-theme="dark" className="text-text-on-dark pt-20 pb-8" style={{ background: 'linear-gradient(180deg, #0b0f19 0%, #060a12 100%)' }}>
       <Container>
         {/* Top Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-12 pb-14 border-b border-border-dark">

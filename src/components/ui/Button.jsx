@@ -24,6 +24,8 @@ export default function Button({
       "border border-white/20 text-white hover:border-[#e60000] hover:text-[#e60000] active:scale-[0.98]",
     "outline-light":
       "border border-white/30 text-white hover:bg-white hover:text-black active:scale-[0.98]",
+    "outline-dark":
+      "border border-neutral-300 text-neutral-700 hover:border-[#e60000] hover:text-[#e60000] active:scale-[0.98]",
     ghost:
       "text-white hover:bg-white/10 active:scale-[0.98]",
   };
